@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>App Name: A coding Project by Helena Vaquera</title>
+    <title>Rewind: A coding Project by Helena Vaquera</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,14 +16,16 @@
    <link rel="icon" type="image/png" href="img/self-logo/logo-crop-square.png">
    <!-- font-awesome -->
    <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
-    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column h-100">
     <!-- ======== Nav Section ======== -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/self-logo/logo-circle.png"  class=""alt="" height="35px"></a>
+            <a class="navbar-brand" href="#"><img src="img/self-logo/logo-circle.png"  class=""alt="" height="35px">Rewind</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,10 +42,10 @@
                         <a class="nav-link" aria-current="page" href="code.html">The Code</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#">Git Repo</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/helenalvp/Reverse">Git Repo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="helenalvp.com">About</a>
+                        <a class="nav-link" target="_blank" href="https://helenalvp.com/">About</a>
                     </li>
                 </ul>
             </div>
@@ -54,29 +56,70 @@
     <main class="flex-shrink-0">
       
         <div class="container py-4 px-5 pt-5 mt-lg-5">  
-            <h2 class="title border-1 border-bottom border-dark">The Code</h2>
+            <h2 class="title border-1 border-bottom border-dark">The Code for Rewind</h2>
             <div class="row row-cols-1 row cols-lg-2 ">
                 <div class="col-lg-8">
                     <pre class="line-numbers">
                         <code class="language-javascript">
-                            //Call Hello World
-                            function helloWorld(){
-                                alert("Hello World")
-                            }
 
+                            function getValue(){
+                                document.getElementById("alert").classList.add("invisible");
+                            
+                                let userString = document.getElementById("userString").value;
+                            
+                                if(userString !== ""){
+                                    let revString = reverseString(userString);
+                                    displayString(revString);  
+                                } else{
+                                    alert("Please enter a string")
+                                }
+                            }
+                            
+                            function reverseString(userStr){
+                                let revStr = [];
+                            
+                                for(let i = userStr.length - 1; i >= 0; i--){
+                                    revStr += userStr[i];
+                                }
+                            
+                                return revStr;
+                            }
+                            
+                            function displayString(reversedStr){
+                            
+                                document.getElementById("msg").innerHTML = `Your string backwards is: ${reversedStr}`
+                                document.getElementById("alert").classList.remove("invisible");
+                            }
+                            
                         </code>
                     </pre>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 mt-3">
                     <p>
-                        This code alerts you in the browser
+                        This code reverses your string and returns the modified reversed version.
                     </p>
-                    <h5>
-                        helloWorld
+                    <h5 class="info-font">
+                        getValue
                     </h5>
                     <p>
-                        helloWorld is a function that displays an alert 
+                        <span class="text-danger">getValue</span> is a function that retrieves a user's input and checks to see if the string is empty or not. 
+                        If it's not empty, it will pass the string to the other functions (<span class="text-danger">reverseString</span> and <span class="text-danger">displayString</span>)
+                        If it is, then it will alert the user, propmting them to enter a string.
                     </p>
+                    <h5 class="info-font">
+                        reverseString
+                    </h5>
+                    <p>
+                        <span class="text-danger">reverseString</span> is a function that uses a for loop to go backwards in the array and saves each character in an array. 
+                    </p>
+                    <p>
+                        To do this, we the for loop fron the end of the string, and go backwatrds until we reach the first character of the original string. So when we get the array, we get it from the last character first.
+                    </p>
+                    <h5 class="info-font">
+                        displayString
+                    </h5>
+                    <p>
+                        <span class="text-danger">displayString</span> is a function that adds the rewinded string to the DOM and removes the "invisible" class attribute that is added to the alert box (to hide it before its use) and allows the user to see the alert box in the DOM.
                 </div>
             </div>
         </div>
