@@ -26,10 +26,6 @@
 <br />
 <br />
 <a href="https://helenalvp-reverse.netlify.app">View Demo</a>
-·
-<a href="https://github.com/helenalvp/Reverse/issues">Report Bug</a>
-·
-<a href="https://github.com/helenalvp/Reverse/issues">Request Feature</a>
 
   </p>
 </p>
@@ -54,7 +50,7 @@
 
 ## About The Project
 
-<!-- <a href="https://helenalvp-cart-checker.netlify.app/"><img src="/src/assets/images/app-screenshot.PNG" alt="app screenshot"/></a>
+<!-- <a href="https://helenalvp-checker.netlify.app/"><img src="/src/assets/images/app-screenshot.PNG" alt="app screenshot"/></a>
  -->
 A mini-site for a coding project that returns a palindrome. 
 
@@ -66,7 +62,7 @@ A mini-site for a coding project that returns a palindrome.
 
 Helena L Vaquera - [@helenalvp](https://twitter.com/helenalvp) - helenalvp@gmail.com
 
-Project Link: [https://github.com/helenalvp/cart-checker](https://github.com/helenalvp/cart-checker)
+Project Link: [https://github.com/helenalvp/Reverse](https://github.com/helenalvp/Reverse)
 
 <!--- []() -->
 
@@ -74,14 +70,14 @@ Project Link: [https://github.com/helenalvp/cart-checker](https://github.com/hel
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/helenalvp/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/helenalvp/cart-checker/graphs/contributors
+[contributors-url]: https://github.com/helenalvp/Reverse/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/helenalvp/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/helenalvp/cart-checker/network/members
+[forks-url]: https://github.com/helenalvp/Reverse/network/members
 [stars-shield]: https://img.shields.io/github/stars/helenalvp/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/helenalvp/cart-checker/stargazers
+[stars-url]: https://github.com/helenalvp/Reverse/stargazers
 [issues-shield]: https://img.shields.io/github/issues/helenalvp/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/helenalvp/cart-checker/issues
+[issues-url]: https://github.com/helenalvp/Reverse/issues
 [license-shield]: https://img.shields.io/github/license/helenalvp/repo.svg?style=for-the-badge
-[license-url]: https://github.com/helenalvp/cart-checker/blob/master/LICENSE.txt
+[license-url]: https://github.com/helenalvp/Reverse/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/helenalvp
