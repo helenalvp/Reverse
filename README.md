@@ -41,7 +41,6 @@
       </ul>
     </li>
     <!-- <li><a href="#usage">Usage</a></li> -->
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -60,7 +59,7 @@ A mini-site for a coding project that returns a palindrome.
 
 ## Contact
 
-Helena L Vaquera - [@helenalvp](https://twitter.com/helenalvp) - helenalvp@gmail.com
+Helena L Vaquera - [@helenalvp](https://twitter.com/helenalvp) - helenalvp@gmail.com - [helenalvp.com](https://helenalvp.com)
 
 Project Link: [https://github.com/helenalvp/Reverse](https://github.com/helenalvp/Reverse)
 
