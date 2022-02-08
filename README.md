@@ -56,7 +56,9 @@ A mini-site for a coding project that returns a palindrome.
 
 ## Contact
 
-Helena L Vaquera - [@helenalvp](https://twitter.com/helenalvp) - helenalvp@gmail.com - [helenalvp.com](https://helenalvp.com)
+Helena L Vaquera 
+Email: helenalvp@gmail.com 
+Portfolio: [helenalvp.com](https://helenalvp.com)
 
 Project Link: [https://github.com/helenalvp/Reverse](https://github.com/helenalvp/Reverse)
 
