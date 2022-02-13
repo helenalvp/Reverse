@@ -28,7 +28,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<!-- <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
@@ -38,26 +38,23 @@
       </ul>
     </li>
     <!-- <li><a href="#usage">Usage</a></li> -->
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+   
 
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
+<!-- ## About The Project -->
 
 <!-- <a href="https://helenalvp-checker.netlify.app/"><img src="/src/assets/images/app-screenshot.PNG" alt="app screenshot"/></a>
  -->
 A mini-site for a coding project that returns a palindrome. 
 
-### Built With
+<!-- ### Built With -->
 
-- [Bootstrap](https://getbootstrap.com/)
+- Built with [Bootstrap](https://getbootstrap.com/)
 
-## Contact
+<!-- ## Contact -->
+<hr/>
 
-Helena L Vaquera 
-Email: helenalvp@gmail.com 
+Helena L Vaquera <br/>
+Email: helenalvp@gmail.com <br/>
 Portfolio: [helenalvp.com](https://helenalvp.com)
 
 Project Link: [https://github.com/helenalvp/Reverse](https://github.com/helenalvp/Reverse)
